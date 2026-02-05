@@ -1,5 +1,25 @@
 {
   "nodes": {
+    "airi": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1769763613,
+        "narHash": "sha256-UqK1bqZOF0Z+bpxlGav0Jw6XPFxOu7FR4XSPnxPa25Y=",
+        "owner": "moeru-ai",
+        "repo": "airi",
+        "rev": "2197a3e5ad05c76bd6c283244799257bc673d96f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "moeru-ai",
+        "repo": "airi",
+        "type": "github"
+      }
+    },
     "base16": {
       "inputs": {
         "fromYaml": "fromYaml"
@@ -369,6 +389,7 @@
     },
     "root": {
       "inputs": {
+        "airi": "airi",
         "daeuniverse": "daeuniverse",
         "disko": "disko",
         "home-manager": "home-manager",

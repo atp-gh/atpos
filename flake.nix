@@ -19,9 +19,14 @@
       url = "github:astro/microvm.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    airi = {
+      url = "github:moeru-ai/airi";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = {
+    self,
     daeuniverse,
     nixpkgs,
     nixvim,
