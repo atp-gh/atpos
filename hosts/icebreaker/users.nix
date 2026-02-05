@@ -39,6 +39,21 @@ in {
         flacon
         thunderbird-bin
         kid3
+        # inputs.airi.packages."x86_64-linux".default
+        (terraria-server.overrideAttrs (old: {
+          version = "1.4.5.3";
+          urlVersion = lib.replaceStrings ["."] [""] "1.4.5.3";
+
+          src = fetchurl {
+            url = "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1453.zip";
+            sha256 = "sha256-5W6XpGaWQTs9lSy1UJq60YR6mfvb3LTts9ppK05XNCg=";
+          };
+          postInstall =
+            (old.postInstall or "")
+            + ''
+              rm -rf $out/Linux/lib64
+            '';
+        }))
 
         # ai
         # aider-chat
