@@ -1,9 +1,9 @@
 {
-  # plugins.project-nvim = {
-  #   enable = false;
-  #   enableTelescope = true;
-  # };
-  plugins.projections = {
+  plugins.project-nvim = {
     enable = true;
+    enableTelescope = true;
   };
+  # plugins.projections = {
+  #   enable = true;
+  # };
 }
