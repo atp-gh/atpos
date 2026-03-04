@@ -43,5 +43,5 @@ in {
   services.displayManager.enable = true;
   console.keyMap = KeyboardLayout;
 
-  boot.kernelParams = ["zfs.zfs_arc_max=6442450944"];
+  boot.kernelParams = ["zfs.zfs_arc_max=12884901888"]; # 12GB
 }
