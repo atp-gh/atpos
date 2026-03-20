@@ -1,4 +1,5 @@
 {
+  inputs,
   pkgs,
   username,
   ...
@@ -46,6 +47,7 @@ in {
         lmstudio
         sqlitebrowser
 
+        # inputs.vexgo.packages."x86_64-linux".default
         # ai
         # aider-chat
 
