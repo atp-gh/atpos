@@ -23,6 +23,10 @@
       url = "github:moeru-ai/airi";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    # vexgo = {
+    #   url = "github:weimm16/vexgo";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
   };
 
   outputs = {
@@ -51,6 +55,7 @@
           inputs.disko.nixosModules.disko
           inputs.stylix.nixosModules.stylix
           home-manager.nixosModules.home-manager
+          # inputs.vexgo.nixosModules.default
           {
             home-manager.extraSpecialArgs = {
               inherit username;
