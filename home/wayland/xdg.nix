@@ -16,7 +16,8 @@ in {
         "peazip-extract-downloads.desktop"
         "peazip-extract-here.desktop"
       ];
-      browser = ["brave-browser.desktop"];
+      # browser = ["brave-browser.desktop"];
+      browser = ["floorp.desktop"];
       editor = ["dev.zed.Zed.desktop"];
       filemanager = ["nemo.desktop"];
       image-viewer = ["oculante.desktop"];
