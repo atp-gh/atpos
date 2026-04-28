@@ -44,9 +44,16 @@ in {
         stayrtr
         sqlite
         go
-        lmstudio
+        nodejs
+        pnpm
         sqlitebrowser
-
+        python314
+        claude-code
+        cargo
+        rustc
+        rustup
+        rustup-toolchain-install-master
+        # rpi-imager
         # inputs.vexgo.packages."x86_64-linux".default
         # ai
         # aider-chat
@@ -111,7 +118,7 @@ in {
         remmina
 
         # wallpaper
-        swww
+        awww
 
         # Screenshots
         swappy
