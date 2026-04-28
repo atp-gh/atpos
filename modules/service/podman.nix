@@ -21,7 +21,7 @@ _: {
     };
     podman = {
       enable = true;
-      dockerCompat = true;
+      dockerCompat = false;
       autoPrune = {
         enable = true;
         dates = "weekly";
