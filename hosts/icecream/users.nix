@@ -97,7 +97,7 @@ in {
         remmina
 
         # wallpaper
-        swww
+        awww
 
         # Screenshots
         swappy

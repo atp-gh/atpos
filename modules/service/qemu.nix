@@ -12,7 +12,8 @@ in {
     services = {
       qemuGuest.enable = true;
       spice-vdagentd.enable = true;
-      spice-webdavd.enable = true;
+      # davfs2 build broken
+      spice-webdavd.enable = false;
     };
     virtualisation.libvirtd = {
       enable = true;

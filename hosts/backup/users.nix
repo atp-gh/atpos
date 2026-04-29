@@ -26,7 +26,7 @@ in {
         localsend
         micro
         nemo
-        swww
+        awww
 
         # System tool
         brightnessctl

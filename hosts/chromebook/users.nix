@@ -33,7 +33,7 @@ in {
         remmina
 
         # wallpaper
-        swww
+        awww
 
         # System tool
         brightnessctl
