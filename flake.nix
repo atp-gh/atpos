@@ -19,10 +19,10 @@
       url = "github:astro/microvm.nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    airi = {
-      url = "github:moeru-ai/airi";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    # airi = {
+    #   url = "github:moeru-ai/airi";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
     # vexgo = {
     #   url = "github:weimm16/vexgo";
     #   inputs.nixpkgs.follows = "nixpkgs";
