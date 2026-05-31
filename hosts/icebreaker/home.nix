@@ -27,7 +27,7 @@ in
     home = {
       username = "${username}";
       homeDirectory = "/home/${username}";
-      stateVersion = "26.05";
+      stateVersion = "26.11";
 
       # Place Files Inside Home Directory
       file = {
