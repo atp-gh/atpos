@@ -19,7 +19,7 @@ in
     imports =
       [
         nixvim.homeModules.nixvim
-        ../../nixvim
+        # ../../nixvim
       ]
       ++ lib.filesystem.listFilesRecursive ../../home;
 
