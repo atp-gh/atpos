@@ -53,6 +53,14 @@ in {
         rustc
         rustup
         rustup-toolchain-install-master
+        nvtopPackages.full
+        llama-cpp-vulkan
+        git-filter-repo
+        vulkan-tools
+        clinfo
+        pciutils
+        wrangler
+
         # rpi-imager
         # inputs.vexgo.packages."x86_64-linux".default
         # ai
