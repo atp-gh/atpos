@@ -16,6 +16,7 @@ in {
       ./disko-config.nix
       ./hardware.nix
       ./nas-hosts.nix
+      ./rgb.nix
       ./users.nix
     ]
     ++ lib.filesystem.listFilesRecursive ../../modules;
