@@ -14,5 +14,8 @@ in {
   config = mkIf cfg.enable {
     systemd.tmpfiles.rules = ["L+    /opt/rocm/hip   -    -    -     -    ${pkgs.rocmPackages.clr}"];
     services.xserver.videoDrivers = ["amdgpu"];
+    hardware.amdgpu.opencl.enable = true;
+    hardware.amdgpu.legacySupport.enable = true;
+    # hardware.amdgpu.initrd.enable = true;
   };
 }
