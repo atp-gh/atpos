@@ -1,7 +1,8 @@
-{
+{pkgs, ...}: {
   services.ollama = {
-    enable = false;
-    host = "0.0.0.0";
+    enable = true;
+    host = "127.0.0.1";
     port = 11434;
+    package = pkgs.ollama-vulkan;
   };
 }
