@@ -32,7 +32,7 @@
   # System
   BootLoader = "systemd-boot"; # options: systemd-boot, grub, grub-mirror
   KernelPackages = "linuxPackages_zen"; # see https://search.nixos.org/options?show=boot.kernelPackages https://www.nyx.chaotic.cx/#using-sched-ext-schedulers
-  QEMU = true;
+  QEMU = false;
   Transparent-Proxy = false;
   ZFS-Support = true;
   Syncthing = true;
