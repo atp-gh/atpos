@@ -60,6 +60,7 @@ in {
         clinfo
         pciutils
         wrangler
+        neovim
 
         # rpi-imager
         # inputs.vexgo.packages."x86_64-linux".default
