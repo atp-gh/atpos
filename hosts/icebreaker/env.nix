@@ -1,7 +1,7 @@
 {
   # Git Configuration ( For Pulling Software Repos )
   gitUsername = "atp-gh";
-  gitEmail = "apt@disroot.org";
+  gitEmail = "atp@disroot.org";
 
   # TimeZone / Locale
   TimeZone = "Asia/Singapore";
