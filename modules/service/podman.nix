@@ -1,7 +1,7 @@
 _: {
   virtualisation = {
     containers = {
-      enable = true;
+      enable = false;
       containersConf.settings = {
         containers.dns_servers = [
           "185.222.222.222"
@@ -12,15 +12,15 @@ _: {
           "2a0d:2a00:2::2"
         ];
       };
-      storage.settings = {
-        storage.driver = "zfs";
-        storage.graphroot = "/var/lib/containers/storage";
-        storage.runroot = "/run/containers/storage";
-        storage.options.zfs.fsname = "zroot/root";
-      };
+      # storage.settings = {
+      #   storage.driver = "zfs";
+      #   storage.graphroot = "/var/lib/containers/storage";
+      #   storage.runroot = "/run/containers/storage";
+      #   storage.options.zfs.fsname = "zroot/root";
+      # };
     };
     podman = {
-      enable = true;
+      enable = false;
       dockerCompat = false;
       autoPrune = {
         enable = true;

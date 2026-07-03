@@ -34,7 +34,7 @@
   KernelPackages = "linuxPackages_zen"; # see https://search.nixos.org/options?show=boot.kernelPackages https://www.nyx.chaotic.cx/#using-sched-ext-schedulers
   QEMU = false;
   Transparent-Proxy = false;
-  ZFS-Support = true;
+  ZFS-Support = false;
   Syncthing = true;
   Terminal = "alacritty"; # options: alacritty or kitty
   Office = "none"; # options: onlyoffice or none
