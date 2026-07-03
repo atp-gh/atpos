@@ -45,7 +45,7 @@ in {
         sqlite
         go
         nodejs
-        pnpm
+        # pnpm
         sqlitebrowser
         python314
         claude-code
@@ -102,7 +102,7 @@ in {
         peazip
 
         # communication
-        legcord
+        # legcord
         materialgram
 
         # dev
